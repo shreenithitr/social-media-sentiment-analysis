@@ -71,4 +71,4 @@ Developed as a practical implementation of end-to-end data analytics — from ra
 ## Author
 
 **Shreenithi T R**  
-Aspiring Data Analyst | Passionate about Data Visualization & Insights
+Aspiring Data Analyst | Passionate about Data Visualization & Insights | open to work
