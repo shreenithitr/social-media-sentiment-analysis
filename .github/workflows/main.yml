@@ -1,21 +1,23 @@
 name: Run Data Pipeline
 
 on:
-push:
-branches: [ "main" ]
-
+  push:
+   branches:
+    - main
+ 
 jobs:
-run-project:
-runs-on: ubuntu-latest
+ run-project:
+   runs-on: ubuntu-latest
 
-steps:
+
+  steps:
   - name: Checkout Repository
     uses: actions/checkout@v3
 
   - name: Set up Python
     uses: actions/setup-python@v4
     with:
-      python-version: '3.10'
+      python-version: "3.10"
 
   - name: Install Libraries
     run: pip install pandas
@@ -38,3 +40,4 @@ steps:
 
       print("Done")
       EOF
+
