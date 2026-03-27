@@ -1,5 +1,4 @@
 name: Run Data Pipeline
-
 on:
   push:
     branches:
@@ -37,3 +36,8 @@ jobs:
 
           print("Success")
           EOF
+      - name: Upload output file
+        uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output_summary.csv
