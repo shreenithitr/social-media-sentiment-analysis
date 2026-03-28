@@ -19,8 +19,8 @@ jobs:
       - name: Install Libraries
         run: pip install pandas
       - name: Run script
-        run: |
-         python <<EOF
+        run:  |
+         python  <<EOF
          import pandas as pd
          import sqlite3
 
