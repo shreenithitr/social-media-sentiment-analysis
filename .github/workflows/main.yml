@@ -37,7 +37,7 @@ jobs:
          print("Success")
          EOF
       - name: Upload output file
-        uses: actions/upload-artifact@v3
+        uses: uses: actions/upload-artifact@v4
         with:
           name: output
           path: output_summary.csv
